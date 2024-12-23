@@ -1,0 +1,41 @@
+### pagina de
+GET http://localhost:1234/
+Content-Type: application/json
+
+{
+    "name": "Anshelo",
+    "year": 2000,
+    "genre": "male",
+    "height": 181
+}
+
+### todos los jugadores
+GET http://localhost:1234/players
+
+### jugador por id
+GET http://localhost:1234/players/dcdd0fad-a94c-4810-1234-5f108d3b18c3
+
+### jugadores femeninos
+GET http://localhost:1234/players?genre=femaLE
+
+### crear nuevo jugador
+POST http://localhost:1234/players
+Content-Type: application/json
+
+{
+    "name": "Anshelo",
+    "year": 2000,
+    "genre": "male",
+    "height": 181
+}
+
+### actualizar un player
+PATCH http://localhost:1234/players/dcdd0fad-a94c-4810-1234-5f108d3b18c3
+Content-Type: application/json
+
+{
+    "height": 180
+}
+
+### Borrar jugador por id
+DELETE http://localhost:1234/players/dcdd0fad-a94c-4810-1234-5f108d3b18c3

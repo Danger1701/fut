@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+    "name": "Vera",
+    "year": 1993,
+    "genre": "male",
+    "height": 178
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-1234-5f108d3b18c3",
+    "name": "Fran",
+    "year": 1991,
+    "genre": "male",
+    "height": 179
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-3ds1-5f108d3b18c3",
+    "name": "Carrique",
+    "year": 1992,
+    "genre": "male",
+    "height": 172
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-4312-5f108d3b18c3",
+    "name": "Maxi",
+    "year": 1995,
+    "genre": "male",
+    "height": 180
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-vd33-5f108d3b18c3",
+    "name": "Rorro",
+    "year": 1993,
+    "genre": "male",
+    "height": 170
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-2141-5f108d3b18c3",
+    "name": "Seba",
+    "year": 1987,
+    "genre": "MALE",
+    "height": 182
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-cxxc-5f108d3b18c3",
+    "name": "Juanchi",
+    "year": 1991,
+    "genre": "male",
+    "height": 175
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-cdsc-5f108d3b18c3",
+    "name": "Martin",
+    "year": 1986,
+    "genre": "fEmale",
+    "height": 183
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-hgfc-5f108d3b18c3",
+    "name": "Bica1",
+    "year": 1988,
+    "genre": "MALE",
+    "height": 173
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-8e22-5f108d3b18c3",
+    "name": "Bica2",
+    "year": 1999,
+    "genre": "male",
+    "height": 175
+  },
+  {
+    "id": "dcdd0fad-a94c-4810-8ccc-5f108d3b18c3",
+    "name": "Cabral",
+    "year": 1992,
+    "genre": "male",
+    "height": 182
+  }
+]
