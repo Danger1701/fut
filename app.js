@@ -1,10 +1,11 @@
-const express = require('express')
-const crypto = require('node:crypto')
-const PLAYERS = require('./players.json')
-const { validatePlayer, validatePartialPlayer } = require('./schemas/players')
+import express, { json } from 'express'
+import { randomUUID } from 'node:crypto'
+import { validatePlayer, validatePartialPlayer } from './schemas/players.js'
+
+import PLAYERS from './players.json' with { type: 'json' }
 
 const app = express()
-app.use(express.json())
+app.use(json())
 app.disable('x-powered-by')
 
 app.get('/', (req, res) => {
@@ -51,7 +52,7 @@ app.post('/players', (req, res) => {
     }
     
     const newPlayer = {
-        id: crypto.randomUUID(),
+        id: randomUUID(),
         ...result.data
     }
 

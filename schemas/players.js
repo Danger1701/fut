@@ -1,4 +1,4 @@
-const z = require('zod')
+import z from 'zod'
 
 const playerSchema = z.object({
 
@@ -12,12 +12,10 @@ const playerSchema = z.object({
     genre : z.enum(['male', 'female'])
 })
 
-function validatePlayer (object) {
+export function validatePlayer (object) {
     return playerSchema.safeParse(object)
 }
 
-function validatePartialPlayer (object) {
+export function validatePartialPlayer (object) {
     return playerSchema.partial().safeParse(object)
 }
-
-module.exports = { validatePlayer, validatePartialPlayer }
