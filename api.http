@@ -2,13 +2,6 @@
 GET http://localhost:1234/
 Content-Type: application/json
 
-{
-    "name": "Anshelo",
-    "year": 2000,
-    "genre": "male",
-    "height": 181
-}
-
 ### todos los jugadores
 GET http://localhost:1234/players
 
